@@ -17,7 +17,8 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 app.engine('hbs', exphbs({defaultLayout: 'main',extname: ".hbs"}));
 
-mongoose.connect('mongodb://127.0.0.1:27017/SampleDBStackOverflow');
+// mongoose.connect('mongodb://127.0.0.1:27017/SampleDBStackOverflow');
+// mongoose.connection
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
